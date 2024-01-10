@@ -1,6 +1,12 @@
-$colorBg: rgb(0, 255, 76);
+// Variaveis 
+$colorBg: rgba(226, 235, 228, 0.836);
+$colorFont: #00000065;
+$colorRed: #ff0404;
 
 
+$spancing-small: 1rem;
+$spancing-mediun: 2.5rem;
+$spancing-large: 5rem;
 #header{
   height: 9.375rem;
   background: $colorBg;
@@ -12,6 +18,8 @@ $colorBg: rgb(0, 255, 76);
   margin: .625rem;
 
 }
+
+
 #footer{
   height: 9.375rem;
   margin: .625rem;
