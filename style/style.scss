@@ -19,6 +19,18 @@ $spancing-large: 5rem;
 
 }
 
+.principal {
+  div {
+    p {
+      font-size: $spancing-mediun;
+      color: $colorRed;
+
+      &:hover{
+        color: $colorFont;
+      }
+    }
+  }
+}
 
 #footer{
   height: 9.375rem;
