@@ -1,12 +1,12 @@
-#header {
+header {
   height: 9.375rem;
-  background: rgba(226, 235, 228, 0.836);
+  background: rgba(0, 199, 43, 0.836);
   margin: 0.625rem;
 }
 
-#main {
+main {
   height: 9.375rem;
-  background: rgba(226, 235, 228, 0.836);
+  background: rgba(0, 199, 43, 0.836);
   margin: 0.625rem;
 }
 
@@ -18,8 +18,8 @@
   color: rgba(0, 0, 0, 0.3960784314);
 }
 
-#footer {
+footer {
   height: 9.375rem;
   margin: 0.625rem;
-  background: rgba(226, 235, 228, 0.836);
+  background: rgba(0, 199, 43, 0.836);
 }/*# sourceMappingURL=style.css.map */

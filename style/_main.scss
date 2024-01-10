@@ -1,0 +1,19 @@
+main{
+  height: 9.375rem;
+  background:  $colorBg;
+  margin: .625rem;
+
+}
+
+.principal {
+  div {
+    p {
+      font-size: $spancing-mediun;
+      color: $colorRed;
+
+      &:hover{
+        color: $colorFont;
+      }
+    }
+  }
+}

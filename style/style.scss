@@ -1,5 +1,5 @@
 // Variaveis 
-$colorBg: rgba(226, 235, 228, 0.836);
+$colorBg: rgba(0, 199, 43, 0.836);
 $colorFont: #00000065;
 $colorRed: #ff0404;
 
@@ -7,33 +7,8 @@ $colorRed: #ff0404;
 $spancing-small: 1rem;
 $spancing-mediun: 2.5rem;
 $spancing-large: 5rem;
-#header{
-  height: 9.375rem;
-  background: $colorBg;
-  margin: .625rem;
-}
-#main{
-  height: 9.375rem;
-  background:  $colorBg;
-  margin: .625rem;
 
-}
-
-.principal {
-  div {
-    p {
-      font-size: $spancing-mediun;
-      color: $colorRed;
-
-      &:hover{
-        color: $colorFont;
-      }
-    }
-  }
-}
-
-#footer{
-  height: 9.375rem;
-  margin: .625rem;
-  background:  $colorBg;
-}
+// importando os modulos 
+@import './header';
+@import './main';
+@import './footer';
