@@ -1,0 +1,17 @@
+.button {
+  font-size: $spancing-small;
+  border-radius: $spancing-mediun;
+  color: #fff;
+  padding: 10px 20px;
+  &--colorGreen {
+    @extend .button;
+    background: $colorGreen;
+    border-color: $colorGreen;
+  }
+
+  &--colorRed {
+    @extend .button;
+    background: $colorRed;
+    border-color: $colorRed;
+  }
+}

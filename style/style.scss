@@ -1,7 +1,8 @@
 // Variaveis 
-$colorBg: rgba(0, 199, 43, 0.836);
+$colorBg: #F5F5F5F5;
 $colorFont: #00000065;
 $colorRed: #ff0404;
+$colorGreen: green;
 
 
 $spancing-small: 1rem;
@@ -12,5 +13,6 @@ $spancing-large: 5rem;
 // @import './header';
 // @import './main';
 // @import './footer';
-@import './principal';
+// @import './principal';
+@import './heranca';
 
