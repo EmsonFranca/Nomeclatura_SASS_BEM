@@ -1,25 +1,35 @@
-header {
-  height: 9.375rem;
-  background: rgba(0, 199, 43, 0.836);
-  margin: 0.625rem;
+.principal1 {
+  background-color: green;
+  color: rgba(255, 255, 255, 0.7058823529);
+  height: 150px;
+  margin-bottom: 10px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
 }
 
-main {
-  height: 9.375rem;
-  background: rgba(0, 199, 43, 0.836);
-  margin: 0.625rem;
+.principal2 {
+  background-color: red;
+  color: rgba(255, 255, 255, 0.7058823529);
+  height: 150px;
+  margin-bottom: 10px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
 }
 
-.principal div p {
-  font-size: 2.5rem;
-  color: #ff0404;
-}
-.principal div p:hover {
-  color: rgba(0, 0, 0, 0.3960784314);
-}
-
-footer {
-  height: 9.375rem;
-  margin: 0.625rem;
-  background: rgba(0, 199, 43, 0.836);
+.principal3 {
+  background-color: orange;
+  color: rgba(255, 255, 255, 0.7058823529);
+  height: 150px;
+  margin-bottom: 10px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
 }/*# sourceMappingURL=style.css.map */

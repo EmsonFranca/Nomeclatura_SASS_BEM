@@ -1,0 +1,21 @@
+@mixin tema($colorBg: green){
+  background-color: $colorBg;
+  color: #ffffffb4;
+  height: 150px;
+  margin-bottom: 10px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+.principal1 {
+  @include tema
+}
+.principal2 {
+  @include tema($colorBg: red)
+}
+.principal3 {
+  @include tema($colorBg: orange)
+}
