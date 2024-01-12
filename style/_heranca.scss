@@ -1,17 +1,32 @@
 .button {
   font-size: $spancing-small;
   border-radius: $spancing-mediun;
-  color: #fff;
+  color: $colorWithe;
   padding: 10px 20px;
+  transition: all 300ms ease-in-out;
+
+  &:hover {
+    position: relative;
+    background: $colorGray;
+    color: $colorBlack;
+    padding: $spancing-small;
+    transition: all 300ms ease-in-out;
+  }
+  
   &--green {
     @extend .button;
     background: $colorGreen;
     border-color: $colorGreen;
   }
-
   &--red {
     @extend .button;
     background: $colorRed;
     border-color: $colorRed;
+    &:hover {
+      background: $colorWithe;
+      color: $colorBlack;
+    }
   }
+
+  
 }

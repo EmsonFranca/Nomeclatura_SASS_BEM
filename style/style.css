@@ -65,6 +65,14 @@ footer {
   border-radius: 2.5rem;
   color: #fff;
   padding: 10px 20px;
+  transition: all 300ms ease-in-out;
+}
+.button:hover, .button--red:hover, .button--green:hover {
+  position: relative;
+  background: #b6b6b6;
+  color: #000;
+  padding: 1rem;
+  transition: all 300ms ease-in-out;
 }
 .button--green {
   background: green;
@@ -73,4 +81,8 @@ footer {
 .button--red {
   background: #ff0404;
   border-color: #ff0404;
+}
+.button--red:hover {
+  background: #fff;
+  color: #000;
 }/*# sourceMappingURL=style.css.map */
