@@ -3,13 +3,13 @@
   border-radius: $spancing-mediun;
   color: #fff;
   padding: 10px 20px;
-  &--colorGreen {
+  &--green {
     @extend .button;
     background: $colorGreen;
     border-color: $colorGreen;
   }
 
-  &--colorRed {
+  &--red {
     @extend .button;
     background: $colorRed;
     border-color: $colorRed;
