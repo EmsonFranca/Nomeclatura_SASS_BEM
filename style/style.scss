@@ -12,7 +12,8 @@ $spancing-small: 1rem;
 $spancing-mediun: 2.5rem;
 $spancing-large: 5rem;
 
-// importando os modulos 
+// importando os modulos
+@import './global/global'; 
 @import './header';
 @import './main';
 @import './footer';
